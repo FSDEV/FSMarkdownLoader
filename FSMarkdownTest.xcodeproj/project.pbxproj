@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB55A3C13EB34850018DF80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB55A3B13EB34850018DF80 /* Foundation.framework */; };
+		DAB55A3F13EB34850018DF80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB55A3E13EB34850018DF80 /* main.m */; };
+		DAB55A4E13EB34BA0018DF80 /* FSMarkdownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB55A4B13EB34BA0018DF80 /* FSMarkdownLoader.m */; };
+		DAB55A4F13EB34BA0018DF80 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB55A4D13EB34BA0018DF80 /* RegexKitLite.m */; };
+		DAB55A5113EB35DC0018DF80 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB55A5013EB35DC0018DF80 /* libicucore.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAB55A3513EB34850018DF80 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DAB55A3713EB34850018DF80 /* FSMarkdownTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FSMarkdownTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB55A3B13EB34850018DF80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAB55A3E13EB34850018DF80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB55A4113EB34850018DF80 /* FSMarkdownTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSMarkdownTest-Prefix.pch"; sourceTree = "<group>"; };
+		DAB55A4A13EB34BA0018DF80 /* FSMarkdownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSMarkdownLoader.h; path = ../FSMarkdownLoader.h; sourceTree = "<group>"; };
+		DAB55A4B13EB34BA0018DF80 /* FSMarkdownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSMarkdownLoader.m; path = ../FSMarkdownLoader.m; sourceTree = "<group>"; };
+		DAB55A4C13EB34BA0018DF80 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		DAB55A4D13EB34BA0018DF80 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		DAB55A5013EB35DC0018DF80 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB55A3413EB34850018DF80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB55A5113EB35DC0018DF80 /* libicucore.dylib in Frameworks */,
+				DAB55A3C13EB34850018DF80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB55A2C13EB34850018DF80 = {
+			isa = PBXGroup;
+			children = (
+				DAB55A3D13EB34850018DF80 /* FSMarkdownTest */,
+				DAB55A3A13EB34850018DF80 /* Frameworks */,
+				DAB55A3813EB34850018DF80 /* Products */,
+				DAB55A4913EB34BA0018DF80 /* vendor */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB55A3813EB34850018DF80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB55A3713EB34850018DF80 /* FSMarkdownTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB55A3A13EB34850018DF80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAB55A3B13EB34850018DF80 /* Foundation.framework */,
+				DAB55A5013EB35DC0018DF80 /* libicucore.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAB55A3D13EB34850018DF80 /* FSMarkdownTest */ = {
+			isa = PBXGroup;
+			children = (
+				DAB55A4A13EB34BA0018DF80 /* FSMarkdownLoader.h */,
+				DAB55A4B13EB34BA0018DF80 /* FSMarkdownLoader.m */,
+				DAB55A3E13EB34850018DF80 /* main.m */,
+				DAB55A4013EB34850018DF80 /* Supporting Files */,
+			);
+			path = FSMarkdownTest;
+			sourceTree = "<group>";
+		};
+		DAB55A4013EB34850018DF80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB55A4113EB34850018DF80 /* FSMarkdownTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAB55A4913EB34BA0018DF80 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				DAB55A4C13EB34BA0018DF80 /* RegexKitLite.h */,
+				DAB55A4D13EB34BA0018DF80 /* RegexKitLite.m */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB55A3613EB34850018DF80 /* FSMarkdownTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB55A4613EB34850018DF80 /* Build configuration list for PBXNativeTarget "FSMarkdownTest" */;
+			buildPhases = (
+				DAB55A3313EB34850018DF80 /* Sources */,
+				DAB55A3413EB34850018DF80 /* Frameworks */,
+				DAB55A3513EB34850018DF80 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSMarkdownTest;
+			productName = FSMarkdownTest;
+			productReference = DAB55A3713EB34850018DF80 /* FSMarkdownTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB55A2E13EB34850018DF80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = FSDEV;
+			};
+			buildConfigurationList = DAB55A3113EB34850018DF80 /* Build configuration list for PBXProject "FSMarkdownTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAB55A2C13EB34850018DF80;
+			productRefGroup = DAB55A3813EB34850018DF80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB55A3613EB34850018DF80 /* FSMarkdownTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB55A3313EB34850018DF80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB55A3F13EB34850018DF80 /* main.m in Sources */,
+				DAB55A4E13EB34BA0018DF80 /* FSMarkdownLoader.m in Sources */,
+				DAB55A4F13EB34BA0018DF80 /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DAB55A4413EB34850018DF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DAB55A4513EB34850018DF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DAB55A4713EB34850018DF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSMarkdownTest/FSMarkdownTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB55A4813EB34850018DF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSMarkdownTest/FSMarkdownTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB55A3113EB34850018DF80 /* Build configuration list for PBXProject "FSMarkdownTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB55A4413EB34850018DF80 /* Debug */,
+				DAB55A4513EB34850018DF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB55A4613EB34850018DF80 /* Build configuration list for PBXNativeTarget "FSMarkdownTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB55A4713EB34850018DF80 /* Debug */,
+				DAB55A4813EB34850018DF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB55A2E13EB34850018DF80 /* Project object */;
+}

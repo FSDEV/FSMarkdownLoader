@@ -1,13 +1,13 @@
 (C) 2011 FSDEV.  All Rights Reserved.  Licensed under the FDOSL.
 
 Firestorm Development Open-Source License
-Version 0.1 - http://fsdev.net/FDOSL.html
+Version 0.1 - http://fsdev.net/fdosl/
 
 This software is licensed under the _Firestorm Development Open-Source License_, which is a dual-licensing under the BSD and MIT license. Pursuant to these terms, you may use this software under the terms of either the BSD or MIT licenses – not both. One or the other, no mix-and-match. The license text of both licenses follows for clarity:
 
 *2-clause BSD License*
 
-> Copyright 2010, 2011 FSDEV. All rights reserved.
+> Copyright 2011 FSDEV. All rights reserved.
 > 
 > * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 > 
@@ -21,7 +21,7 @@ This software is licensed under the _Firestorm Development Open-Source License_,
 
 *MIT License*
 
-> Copyright (c) 2010, 2011 FSDEV
+> Copyright (c) 2011 FSDEV
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 > 
